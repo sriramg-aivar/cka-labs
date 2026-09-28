@@ -1,0 +1,14 @@
+# Progress tracking (local state)
+.cka-progress
+
+# Scenario work / scratch files
+cka-work/
+tls.crt
+tls.key
+*.tar
+*.tmp
+*.bak
+
+# Editor
+.idea/
+.vscode/

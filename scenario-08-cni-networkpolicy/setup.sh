@@ -1,0 +1,21 @@
+#!/bin/bash
+set -e
+
+echo "=== Setting up Scenario 08: Install a CNI with NetworkPolicy Support ==="
+echo ""
+echo "NOTE: This scenario modifies cluster-wide networking. Use the Killercoda"
+echo "playground as-is; no resources are pre-created."
+echo ""
+echo "TASK:"
+echo "  Install a CNI that meets ALL of these requirements:"
+echo "    - Pods can communicate across nodes"
+echo "    - Enforces Kubernetes NetworkPolicy"
+echo "    - Installable from a manifest"
+echo ""
+echo "Options:"
+echo "  1. Flannel v0.26.1"
+echo "     https://github.com/flannel-io/flannel/releases/download/v0.26.1/kube-flannel.yml"
+echo "  2. Calico v3.28.2"
+echo "     https://raw.githubusercontent.com/projectcalico/calico/v3.28.2/manifests/tigera-operator.yaml"
+echo ""
+echo "See TASK.md for full instructions."
