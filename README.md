@@ -15,13 +15,9 @@ Designed for **Killercoda** Kubernetes playgrounds — or any kubeadm cluster wi
 ```bash
 # 1. Open a Killercoda Kubernetes playground (2 nodes)
 # 2. Clone this repo on the controlplane node:
-git clone <this-repo>
+git clone https://github.com/sriramg-aivar/cka-labs
 cd cka-labs
-
-# 3. One-time setup (verifies cluster, checks CNI):
 cd cluster && ./create-cluster.sh && cd ..
-
-# 4. Start studying:
 ./cka.sh
 ```
 
