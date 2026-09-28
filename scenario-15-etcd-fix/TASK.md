@@ -29,4 +29,10 @@ kubectl get nodes --request-timeout=10s
 - The kubelet auto-restarts the static pod when the manifest changes; give it a
   few seconds before re-testing.
 
+## ⚠️ When you're done
+
+This scenario edits the control-plane static pod manifest. If the API server does
+not recover (or you want a clean slate), **restart the Killercoda playground** to
+get a fresh cluster before doing other labs.
+
 Video walkthrough: https://youtu.be/IL448T6r8H4

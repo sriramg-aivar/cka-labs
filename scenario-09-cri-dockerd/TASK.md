@@ -37,6 +37,12 @@ sysctl -n net.netfilter.nf_conntrack_max        # 131072
 - Write the four params to a file under `/etc/sysctl.d/` (e.g. `kube.conf`) and run
   `sysctl --system` to apply persistently.
 
+## ⚠️ When you're done
+
+This scenario installs a package and changes node settings that cannot be cleanly
+undone. **Restart the Killercoda playground** to get a fresh node before doing
+other labs.
+
 ## Video
 
 https://youtu.be/ybzo1vXiqjU

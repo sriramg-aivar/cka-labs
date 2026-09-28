@@ -38,6 +38,11 @@ kubectl get nodes            # all nodes should be Ready
   `kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.28.2/manifests/tigera-operator.yaml`
 - Wait for the calico components to become Running and nodes to be Ready.
 
+## ⚠️ When you're done
+
+This scenario changes cluster-wide networking and cannot be cleanly undone.
+**Restart the Killercoda playground** to get a fresh cluster before doing other labs.
+
 ## Video
 
 https://youtu.be/Uc04Ui4x3EM
